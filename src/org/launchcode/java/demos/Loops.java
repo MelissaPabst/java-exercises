@@ -30,4 +30,8 @@ public class Loops {
             System.out.print(c);
         }
     }
+
+    public static class ArrayListsAdder {
+
+    }
 }

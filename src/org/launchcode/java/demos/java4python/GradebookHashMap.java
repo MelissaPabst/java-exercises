@@ -29,6 +29,7 @@ public class GradebookHashMap {
                 students.put(newStudent, newGrade);
 
                 // Read in the newline before looping back
+                // throws out /n (look at debugger, if confused)
                 in.nextLine();
             }
 
