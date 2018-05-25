@@ -1,17 +1,14 @@
 package school;
 
+import java.util.ArrayList;
+
 public class Course {
 
-    String name;
-    String description;
-    double roomNumber;
+    private String name;
+    private double courseCredits;
+    private ArrayList<Student> roster;
 
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String aName) {
-        name = aName;
-    }
+
 
 }
